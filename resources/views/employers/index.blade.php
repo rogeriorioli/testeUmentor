@@ -30,20 +30,19 @@
                     <th class="py-3 px-6 text-left">Data e Hora (Atualização)</th>
                 </tr>
             </thead>
-            <tbody class="text-gray-600 text-sm font-light" id="usuariosTable">
+            <tbody class="text-gray-600 text-sm font-light" id="employersTable">
             </tbody>
         </table>
 
-        <h2 class="text-xl font-semibold mt-6">Adicionar Usuário</h2>
-        <form id="addUserForm" class="mt-4"> 
+        <h2 class="text-xl font-semibold mt-6">Adicionar Novo Empregado</h2>
+        <form id="addEmployerForm" class="mt-4"> 
             @csrf
             <input type="text" id="nome" placeholder="Nome" name="nome" required class="border border-gray-300 p-2 rounded w-full mb-2 js-input" />
             <input type="email" id="email" placeholder="Email" name="email" required class="border border-gray-300 p-2 rounded w-full mb-2 js-input" />
             <input type="text" id="situacao" placeholder="Situação" name="situacao" required class="border border-gray-300 p-2 rounded w-full mb-2 js-input" />
             <input type="date" id="data_admissao" name="data_admissao" required class="border border-gray-300 p-2 rounded w-full mb-2 js-input" />
-            <button type="submit" class="bg-green-500 text-white p-2 rounded hover:bg-blue-600">Adicionar Usuário</button>
+            <button type="submit" class="bg-green-500 text-white p-2 rounded hover:bg-blue-600">Adicionar</button>
         </form>
     </div>
-
 </body>
 </html>
