@@ -16,7 +16,7 @@ This application use Laravel and SQLITE DATABASE
 ``` 
 
 
-## START FRNT END 
+## START FRONT END 
 
 ```bash
 
